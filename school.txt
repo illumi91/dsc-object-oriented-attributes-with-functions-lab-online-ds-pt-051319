@@ -1,0 +1,15 @@
+class School():
+    def __init__(self, name, roster = {}):
+        self.name = name
+        self.roster = roster
+
+    def add_student(self, grade, name):
+        if grade in self.roster.keys():
+            self.roster[grade].append(name)
+        else:
+            self.roster[name] = [grade]
+
+    def grade(self, grade):
+        new_list = []
+        for self.x.keys in roster:
+            return x.keys
